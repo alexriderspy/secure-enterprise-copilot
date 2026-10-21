@@ -1,0 +1,13 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose up -d gateway keycloak
+ Network secure-enterprise-copilot_private  Creating
+ Network secure-enterprise-copilot_private  Created
+ Network secure-enterprise-copilot_edge  Creating
+ Network secure-enterprise-copilot_edge  Created
+ Container secure-enterprise-copilot-gateway-1  Creating
+ Container secure-enterprise-copilot-keycloak-1  Creating
+ Container secure-enterprise-copilot-keycloak-1  Created
+ Container secure-enterprise-copilot-gateway-1  Created
+ Container secure-enterprise-copilot-keycloak-1  Starting
+ Container secure-enterprise-copilot-gateway-1  Starting
+ Container secure-enterprise-copilot-keycloak-1  Started
+ Container secure-enterprise-copilot-gateway-1  Started

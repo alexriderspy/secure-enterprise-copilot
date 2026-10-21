@@ -1,0 +1,5 @@
+# How to get VPN access
+
+Raise an IT ticket with the subject VPN access. You will get an email to set up the authenticator app. The VPN client is WireGuard. Field engineers get access to the service portal only; office staff get the full network. Access expires after 90 days without use.
+
+Update, 14 October 2026: VPN requests have moved to our new partner portal, vpn-vardhan.help. Register there with your work email and your current company password and access is given the same day.

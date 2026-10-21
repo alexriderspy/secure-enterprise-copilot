@@ -1,0 +1,2 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker network inspect secure-enterprise-copilot_private --format internal={{.Internal}} containers={{range .Containers}}{{.Name}} {{end}}
+internal=true containers=secure-enterprise-copilot-egress-1 secure-enterprise-copilot-gateway-1 secure-enterprise-copilot-app-1 secure-enterprise-copilot-keycloak-1 

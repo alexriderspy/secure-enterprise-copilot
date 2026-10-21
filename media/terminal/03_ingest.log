@@ -1,0 +1,8 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % python -m kb.ingest
+  quarantined a chunk of drive:1vendorFaq: override, fake_system, credential_ask
+  quarantined a chunk of drive:1dealerInstall: role_change, fake_system, secrecy, exfil_markdown
+drive: 13 documents, 38 chunks
+  quarantined a chunk of jira:SERV-105: override, fake_system, addressed_to_ai
+jira: 10 documents, 9 chunks
+identifiers masked: {'IN_BANK_ACCOUNT': 2, 'PHONE_NUMBER': 3, 'IN_PAN': 2, 'IN_AADHAAR': 2, 'IN_UPI': 1, 'EMAIL_ADDRESS': 1}
+{'documents': 23, 'chunks': 47, 'acl_rows': 34, 'quarantined': 3}

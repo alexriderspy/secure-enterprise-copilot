@@ -1,0 +1,13 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % python -m kb.pii data/fixtures/drive/content/1empMaster.txt
+W1021 07:45:13.683000 88396 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+# Field engineer records (HR, confidential)
+
+## Sunil More
+Service engineer, Nashik. Joined 4 March 2024. Aadhaar <IN_AADHAAR>. PAN <IN_PAN>.
+Mobile <PHONE_NUMBER>. Salary account <IN_BANK_ACCOUNT>, HDFC Bank, IFSC HDFC0001234.
+
+## Kavita Jadhav
+Service engineer, Pune. Joined 17 July 2023. Aadhaar <IN_AADHAAR>. PAN <IN_PAN>.
+Mobile <PHONE_NUMBER>. Salary account <IN_BANK_ACCOUNT>, State Bank of India, IFSC SBIN0004021. UPI <IN_UPI>.
+
+{'IN_UPI': 1, 'IN_BANK_ACCOUNT': 2, 'PHONE_NUMBER': 2, 'IN_PAN': 2, 'IN_AADHAAR': 2}

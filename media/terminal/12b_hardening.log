@@ -1,0 +1,2 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker inspect secure-enterprise-copilot-app-1 --format user={{.Config.User}} read_only={{.HostConfig.ReadonlyRootfs}} cap_drop={{.HostConfig.CapDrop}} security_opt={{.HostConfig.SecurityOpt}} memory={{.HostConfig.Memory}} networks={{range $k, $v := .NetworkSettings.Networks}}{{$k}} {{end}}
+user=app read_only=true cap_drop=[ALL] security_opt=[no-new-privileges:true] memory=1572864000 networks=secure-enterprise-copilot_private 

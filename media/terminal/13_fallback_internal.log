@@ -1,0 +1,9 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose exec app python -m kb.ask --email asha.kulkarni@vardhanpumps.in --groups engineering How many days of annual leave do I get?
+user: asha.kulkarni@vardhanpumps.in  groups: ['engineering']
+
+Every employee gets 21 days of paid annual leave per calendar year. [1] 
+
+  model: local:qwen2.5:7b  notes: ['cloud:claude-sonnet-5-5: AuthenticationError']
+  [1] Leave and Holiday Policy 2026  https://docs.google.com/document/d/1leavePolicy/edit
+
+denied (logged, not shown to the user): ['drive:1appraisal', 'jira:HR-31', 'jira:SALES-211', 'drive:1dealerPrice']

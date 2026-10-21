@@ -1,0 +1,10 @@
+.env
+secrets/
+*.db
+media/
+tests/
+evals/
+demo/
+.git/
+**/__pycache__/
+models/

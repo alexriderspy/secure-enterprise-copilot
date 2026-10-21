@@ -1,0 +1,11 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose exec app python deploy/egress_check.py
+direct  https://pypi.org/simple/                         blocked (ConnectError)
+proxy   https://pypi.org/simple/                         blocked (ProxyError)
+direct  https://huggingface.co                           blocked (ConnectError)
+proxy   https://huggingface.co                           blocked (ProxyError)
+direct  https://example.com                              blocked (ConnectError)
+proxy   https://example.com                              blocked (ProxyError)
+direct  https://api.anthropic.com/v1/models              blocked (ConnectError)
+proxy   https://api.anthropic.com/v1/models              HTTP 401
+direct  http://host.docker.internal:11434/api/version    blocked (ConnectError)
+proxy   http://host.docker.internal:11434/api/version    HTTP 200

@@ -1,0 +1,5 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % sh -c docker compose logs egress | grep -E "Request|refused"
+egress-1  | CONNECT   Oct 21 04:04:52.462 [1]: Request (file descriptor 4): CONNECT publicsuffix.org:443 HTTP/1.1
+egress-1  | NOTICE    Oct 21 04:04:52.462 [1]: Proxying refused on filtered domain "publicsuffix.org"
+egress-1  | CONNECT   Oct 21 04:04:52.465 [1]: Request (file descriptor 4): CONNECT raw.githubusercontent.com:443 HTTP/1.1
+egress-1  | NOTICE    Oct 21 04:04:52.465 [1]: Proxying refused on filtered domain "raw.githubusercontent.com"

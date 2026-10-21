@@ -1,0 +1,5 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % sh -c docker compose logs app | grep -E "callback|api/ask" | head -4
+app-1  | INFO:     172.18.0.3:38356 - "GET /callback?state=***&session_state=***&iss=http%3A%2F%2Flocalhost%3A53161%2Frealms%2Fvardhan&code=*** HTTP/1.0" 307 Temporary Redirect
+app-1  | INFO:     172.18.0.3:38378 - "POST /api/ask HTTP/1.0" 200 OK
+app-1  | INFO:     172.18.0.3:38408 - "GET /callback?state=***&session_state=***&iss=http%3A%2F%2Flocalhost%3A53161%2Frealms%2Fvardhan&code=*** HTTP/1.0" 307 Temporary Redirect
+app-1  | INFO:     172.18.0.3:38420 - "POST /api/ask HTTP/1.0" 200 OK

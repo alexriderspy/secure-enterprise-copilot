@@ -1,0 +1,13 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % python demo/rate_limit.py
+request  1: HTTP 200
+request  2: HTTP 200
+request  3: HTTP 200
+request  4: HTTP 429  Retry-After 6s
+request  5: HTTP 200
+request  6: HTTP 200
+request  7: HTTP 429  Retry-After 6s
+request  8: HTTP 200
+request  9: HTTP 200
+request 10: HTTP 200
+request 11: HTTP 200
+request 12: HTTP 200

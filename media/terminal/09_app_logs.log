@@ -1,0 +1,12 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose logs app
+app-1  |   quarantined a chunk of drive:1vendorFaq: override, fake_system, credential_ask
+app-1  |   quarantined a chunk of drive:1dealerInstall: role_change, fake_system, secrecy, exfil_markdown
+app-1  | drive: 13 documents, 38 chunks
+app-1  |   quarantined a chunk of jira:SERV-105: override, fake_system, addressed_to_ai
+app-1  | jira: 10 documents, 9 chunks
+app-1  | identifiers masked: {'IN_BANK_ACCOUNT': 2, 'PHONE_NUMBER': 3, 'IN_PAN': 2, 'IN_AADHAAR': 2, 'IN_UPI': 1, 'EMAIL_ADDRESS': 1}
+app-1  | {'documents': 23, 'chunks': 47, 'acl_rows': 34, 'quarantined': 3}
+app-1  | INFO:     Started server process [14]
+app-1  | INFO:     Waiting for application startup.
+app-1  | INFO:     Application startup complete.
+app-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)

@@ -1,0 +1,9 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose exec app python -m kb.ask --email meera.iyer@vardhanpumps.in --groups hr What is the salary band for a senior service engineer?
+user: meera.iyer@vardhanpumps.in  groups: ['hr']
+
+The salary band for a senior service engineer (E2) is Rs 7.2 to 9.8 lakh per year. [2] 
+
+  model: local:qwen2.5:7b  notes: ['cloud:claude-sonnet-5-5: skipped, restricted data stays local']
+  [2] Salary Bands 2026 (confidential)  https://docs.google.com/document/d/1salaryBands/edit
+
+denied (logged, not shown to the user): []

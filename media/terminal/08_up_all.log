@@ -1,0 +1,10 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % docker compose up -d
+ Volume secure-enterprise-copilot_kbdata  Creating
+ Volume secure-enterprise-copilot_kbdata  Created
+ Container secure-enterprise-copilot-app-1  Creating
+ Container secure-enterprise-copilot-keycloak-1  Running
+ Container secure-enterprise-copilot-egress-1  Running
+ Container secure-enterprise-copilot-gateway-1  Running
+ Container secure-enterprise-copilot-app-1  Created
+ Container secure-enterprise-copilot-app-1  Starting
+ Container secure-enterprise-copilot-app-1  Started

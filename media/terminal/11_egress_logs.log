@@ -1,0 +1,11 @@
+sreemanti@MacBook-Pro secure-enterprise-copilot % sh -c docker compose logs --since 2m egress | grep -E "Request|refused|Established"
+egress-1  | CONNECT   Oct 21 04:10:39.673 [1]: Request (file descriptor 4): CONNECT pypi.org:443 HTTP/1.1
+egress-1  | NOTICE    Oct 21 04:10:39.673 [1]: Proxying refused on filtered domain "pypi.org"
+egress-1  | CONNECT   Oct 21 04:10:39.685 [1]: Request (file descriptor 4): CONNECT huggingface.co:443 HTTP/1.1
+egress-1  | NOTICE    Oct 21 04:10:39.685 [1]: Proxying refused on filtered domain "huggingface.co"
+egress-1  | CONNECT   Oct 21 04:10:39.699 [1]: Request (file descriptor 4): CONNECT example.com:443 HTTP/1.1
+egress-1  | NOTICE    Oct 21 04:10:39.699 [1]: Proxying refused on filtered domain "example.com"
+egress-1  | CONNECT   Oct 21 04:10:39.711 [1]: Request (file descriptor 4): CONNECT api.anthropic.com:443 HTTP/1.1
+egress-1  | CONNECT   Oct 21 04:10:39.796 [1]: Established connection to host "api.anthropic.com" using file descriptor 5.
+egress-1  | CONNECT   Oct 21 04:10:40.194 [1]: Request (file descriptor 4): GET http://host.docker.internal:11434/api/version HTTP/1.1
+egress-1  | CONNECT   Oct 21 04:10:40.196 [1]: Established connection to host "host.docker.internal" using file descriptor 5.
